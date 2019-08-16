@@ -1,0 +1,242 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: #FFF7F3;
+  line-height: 1.1;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* Utlility Classes */
+
+h1, h2, h3{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #583F32;
+}
+
+.font-primary{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.font-uppercase{
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.text-dark{
+  color: #753A1B;
+}
+
+.text-primary{
+  color: #FF793A;
+}
+
+.text-light{
+  color: rgb(184, 170, 165);
+  font-size: 0.7rem;
+}
+
+.text-subtitle{
+  font-size:0.7rem;
+  color: #583F32;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.btn-trans{
+  background: #FEEDE3;
+  padding: 0.4rem;
+  border: 1px solid #FFDFCE;
+  border-radius: 12px;
+  /* text-align: center; */
+  font-size:0.8rem;
+  padding: 0.5rem;
+}
+
+.btn-primary{
+  background: #FF793A;
+  border: none; 
+  padding: 0.2rem;
+  padding-right: 1.3rem;
+  border-radius: 25px;
+}
+
+.b-price{
+  color: #753A1B;
+  font-size:2rem;
+  font-weight: bolder;
+}
+
+.s-price{
+  color: #FF793A;
+}
+
+.s-price-yellow{
+  color: #FAD900;
+}
+
+.s-price-red{
+  color: #FF0016;
+}
+
+.s-price-green{
+  color: #00A589;
+}
+
+/* Main Navbar */
+
+#main-header{
+  font-weight: bold;
+}
+
+#main-header img{
+  width: 60px;
+  height: 60px;;
+}
+
+#main-header{
+  display: flex;
+  /* padding: 10px; */
+  justify-content: space-between;
+  align-items: center;
+} 
+
+#main-header #left-navbar{
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  order: 1;
+}
+
+#main-header #right-navbar{
+  padding-right: 1.2rem;
+  display: flex;
+  align-items: center;
+  order: 3;
+}
+
+#main-header .logo{
+  order: 2;
+}
+
+#main-header .nav-item{
+  padding: 0 1rem;
+  text-align: center;
+}
+
+#main-header #right-navbar a{
+  color: #FF793A;
+  /* margin-top: 10px; */
+}
+
+#main-header i{
+  background: #FEEDE3;
+  padding: 0.4rem;
+  color: #FF793A;
+  border: 1px solid #FFDFCE;
+  border-radius: 50%;
+}
+
+/* Main book */
+
+#main-book{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 210px;
+  display: flex;
+  /* align-items: center; */
+}
+
+#main-book .book-img{
+  height: 360px;
+  width: 270px; 
+  background: url(../img/book-covers/The\ business\ of\ design.png) no-repeat center center/cover;
+}
+
+#main-book .book-info .rating i{
+  color: #FF793A;
+  font-size: 0.8rem;
+}
+
+#main-book .book-info .rating .fa-light{
+  color: #FFD4BB;
+}
+
+#main-book .book-info{
+  padding-left: 100px;
+  padding-top: 20px;
+  width: 51%;
+}
+
+#main-book .book-info .main-title h2{
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: #AE7254;
+}
+
+#main-book .book-info .main-title span{
+  letter-spacing: 4px;
+  font-size: 5rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+#main-book .book-info .book-details{
+  display: flex;
+  justify-content: space-between
+}
+
+#main-book .book-info .rating{
+  padding: 30px 0;
+  display: flex;
+}
+
+#main-book .book-info .rating .fa-light{
+  padding-right: 20px;
+}
+
+#main-book .book-info .rating p{
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+#main-book .book-info .price{
+  display: flex;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#main-book .book-info .price i{
+  background: #fff;
+  padding: 0.5rem;
+  color: #FF793A;
+  border: 1px solid #FFDFCE;
+  border-radius: 50%;
+  margin-right:7px;
+}
+
+#main-book .book-info .price p{
+  padding-right: 30px;
+}
+
+#main-book .book-info .price a{
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  font-weight: bold;
+  color: #fff;
+}
