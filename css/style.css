@@ -35,6 +35,7 @@ a{
 .font-uppercase{
   text-transform: uppercase;
   font-size: 0.6rem;
+  font-weight: bold;
 }
 
 .text-dark{
@@ -75,6 +76,13 @@ a{
   padding: 0.2rem;
   padding-right: 1.3rem;
   border-radius: 25px;
+  letter-spacing: 1px;
+}
+
+.btn{
+  background: #FF793A;
+  padding: 10px 15px;
+  border-radius: 25px;
 }
 
 .b-price{
@@ -85,18 +93,33 @@ a{
 
 .s-price{
   color: #FF793A;
+  font-size: 1.2rem;
+  font-weight: bolder;
 }
 
 .s-price-yellow{
-  color: #FAD900;
+  color: rgb(236, 224, 58);
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
 
 .s-price-red{
   color: #FF0016;
+  font-size: 1.3rem;
+  font-weight: bolder;
 }
 
 .s-price-green{
   color: #00A589;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+.s-price-cut{
+  color: rgb(206, 197, 194);
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-decoration: line-through; 
 }
 
 /* Main Navbar */
@@ -247,4 +270,74 @@ a{
   font-size: 0.6rem;
   font-weight: bold;
   color: #fff;
+}
+
+/* TWO BOOKS SECTION */
+
+#two-books .book1 .book1-img{
+  height:250px;
+  width: 200px;
+  background: url(../img/book-covers/dont\ make\ me\ think.png) no-repeat center  center/cover;
+}
+
+#two-books .book2 .book2-img{
+  height:250px;
+  width: 200px;
+  background: url(../img/book-covers/the\ joy\ of\ ux.png) no-repeat center  center/cover;
+}
+
+#two-books{
+  display: flex;
+}
+
+
+#two-books .book1-info .book-title1{
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #6E6D45;
+}
+
+#two-books .book1-info .book-title2{
+  font-family: 'Lexend Deca', sans-serif;
+  font-style: 1.2rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #774B4D;
+  margin-bottom: 20px;
+}
+#two-books .book1{
+  background: #FDFEF8;
+  display: flex;
+  padding: 30px 60px;
+}
+
+#two-books .book2{
+  background: #FBE9E9;
+  display: flex;
+  padding: 30px 60px;
+}
+
+#two-books .book1-info{
+  padding: 30px;
+}
+
+#two-books .book1-info .sm-price{
+  display: flex;
+  margin: 10px 0;
+}
+
+#two-books .book1-info .sm-price p{
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+#two-books .book1-info div a{
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#book2 .book1-info .book2-color{
+  color: #774B4D;
 }
