@@ -34,7 +34,7 @@ a{
 
 .font-uppercase{
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 .text-dark{
@@ -61,10 +61,12 @@ a{
   background: #FEEDE3;
   padding: 0.4rem;
   border: 1px solid #FFDFCE;
-  border-radius: 12px;
+  border-radius: 20px;
   /* text-align: center; */
-  font-size:0.8rem;
-  padding: 0.5rem;
+  font-size:0.6rem;
+  font-weight: bold;
+  padding: 0.6rem 0.9rem;
+  margin-right: 1rem;
 }
 
 .btn-primary{
@@ -101,6 +103,7 @@ a{
 
 #main-header{
   font-weight: bold;
+  /* font-size: 1rem; */
 }
 
 #main-header img{
@@ -116,7 +119,7 @@ a{
 } 
 
 #main-header #left-navbar{
-  padding-left: 2rem;
+  /* padding-left: 2rem; */
   display: flex;
   align-items: center;
   order: 1;
@@ -134,8 +137,13 @@ a{
 }
 
 #main-header .nav-item{
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
+  padding-right: 1rem;
   text-align: center;
+}
+
+#main-header #left-nav .ham{
+  padding-left: 0;
 }
 
 #main-header #right-navbar a{
@@ -145,7 +153,7 @@ a{
 
 #main-header i{
   background: #FEEDE3;
-  padding: 0.4rem;
+  padding: 0.5rem;
   color: #FF793A;
   border: 1px solid #FFDFCE;
   border-radius: 50%;
@@ -154,17 +162,17 @@ a{
 /* Main book */
 
 #main-book{
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 90px;
-  padding-left: 210px;
+  padding-left: 110px;
   display: flex;
   /* align-items: center; */
 }
 
 #main-book .book-img{
-  height: 360px;
-  width: 270px; 
-  background: url(../img/book-covers/The\ business\ of\ design.png) no-repeat center center/cover;
+  height: 400px;
+  width: 440px; 
+  background: url(../img/book-covers/bookmain.png) no-repeat center center/cover;
 }
 
 #main-book .book-info .rating i{
@@ -177,9 +185,9 @@ a{
 }
 
 #main-book .book-info{
-  padding-left: 100px;
-  padding-top: 20px;
-  width: 51%;
+  padding-left: 10px;
+  padding-top: 50px;
+  width: 35%;
 }
 
 #main-book .book-info .main-title h2{
