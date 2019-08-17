@@ -34,12 +34,13 @@ a{
 
 .font-uppercase{
   text-transform: uppercase;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: bold;
 }
 
 .text-dark{
   color: #753A1B;
+  /* font-size: 9rem; */
 }
 
 .text-primary{
@@ -48,11 +49,12 @@ a{
 
 .text-light{
   color: rgb(184, 170, 165);
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .text-subtitle{
-  font-size:0.7rem;
+  padding-top: 0.4rem;
+  font-size:0.9rem;
   color: #583F32;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -64,24 +66,24 @@ a{
   border: 1px solid #FFDFCE;
   border-radius: 20px;
   /* text-align: center; */
-  font-size:0.6rem;
+  font-size:0.8rem;
   font-weight: bold;
   padding: 0.6rem 0.9rem;
   margin-right: 1rem;
+  letter-spacing: 0.6px;
 }
 
 .btn-primary{
   background: #FF793A;
   border: none; 
   padding: 0.2rem;
-  padding-right: 1.3rem;
+  padding-right: 1.8rem;
   border-radius: 25px;
   letter-spacing: 1px;
 }
-
 .btn{
   background: #FF793A;
-  padding: 10px 15px;
+  padding: 13px 15px;
   border-radius: 25px;
 }
 
@@ -101,18 +103,22 @@ a{
   color: rgb(236, 224, 58);
   font-size: 1.3rem;
   font-weight: bolder;
+  margin-top: 10px;
 }
 
 .s-price-red{
   color: #FF0016;
   font-size: 1.3rem;
   font-weight: bolder;
+  margin-top: 10px;
 }
 
 .s-price-green{
   color: #00A589;
   font-size: 1.3rem;
   font-weight: bolder;
+  margin-top: 10px;
+  margin-right: 15px;
 }
 
 .s-price-cut{
@@ -120,6 +126,7 @@ a{
   font-size: 1.3rem;
   font-weight: bolder;
   text-decoration: line-through; 
+  margin-top: 10px;
 }
 
 /* Main Navbar */
@@ -132,6 +139,10 @@ a{
 #main-header img{
   width: 60px;
   height: 60px;;
+}
+
+#main-header h2{
+  font-style: 4rem;
 }
 
 #main-header{
@@ -161,7 +172,7 @@ a{
 
 #main-header .nav-item{
   /* padding: 0 1rem; */
-  padding-right: 1rem;
+  padding-right: 1.5rem;
   text-align: center;
 }
 
@@ -175,8 +186,9 @@ a{
 }
 
 #main-header i{
+  font-size: 0.9rem;
   background: #FEEDE3;
-  padding: 0.5rem;
+  padding: 0.8rem;
   color: #FF793A;
   border: 1px solid #FFDFCE;
   border-radius: 50%;
@@ -185,22 +197,23 @@ a{
 /* Main book */
 
 #main-book{
-  padding-top: 60px;
+  padding-top: 70px;
   padding-bottom: 90px;
-  padding-left: 110px;
+  padding-left: 130px;
   display: flex;
   /* align-items: center; */
 }
 
 #main-book .book-img{
-  height: 400px;
-  width: 440px; 
+  height: 500px;
+  width: 560px; 
   background: url(../img/book-covers/bookmain.png) no-repeat center center/cover;
 }
 
 #main-book .book-info .rating i{
   color: #FF793A;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  padding-right: 0.2rem;
 }
 
 #main-book .book-info .rating .fa-light{
@@ -209,20 +222,20 @@ a{
 
 #main-book .book-info{
   padding-left: 10px;
-  padding-top: 50px;
+  padding-top: 70px;
   width: 35%;
 }
 
 #main-book .book-info .main-title h2{
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
   color: #AE7254;
 }
 
 #main-book .book-info .main-title span{
-  letter-spacing: 4px;
-  font-size: 5rem;
+  letter-spacing: 5px;
+  font-size: 6rem;
   text-transform: capitalize;
   font-weight: bolder;
 }
@@ -235,6 +248,7 @@ a{
 #main-book .book-info .rating{
   padding: 30px 0;
   display: flex;
+  align-items: center;
 }
 
 #main-book .book-info .rating .fa-light{
@@ -242,7 +256,7 @@ a{
 }
 
 #main-book .book-info .rating p{
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
@@ -254,7 +268,8 @@ a{
 
 #main-book .book-info .price i{
   background: #fff;
-  padding: 0.5rem;
+  font-size: 1rem;
+  padding: 0.6rem;
   color: #FF793A;
   border: 1px solid #FFDFCE;
   border-radius: 50%;
@@ -275,48 +290,54 @@ a{
 /* TWO BOOKS SECTION */
 
 #two-books .book1 .book1-img{
-  height:250px;
-  width: 200px;
+  height:285px;
+  width: 225px;
   background: url(../img/book-covers/dont\ make\ me\ think.png) no-repeat center  center/cover;
 }
 
 #two-books .book2 .book2-img{
-  height:250px;
-  width: 200px;
+  height:285px;
+  width: 225px;
   background: url(../img/book-covers/the\ joy\ of\ ux.png) no-repeat center  center/cover;
 }
 
 #two-books{
   display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: stretch;
 }
 
-
-#two-books .book1-info .book-title1{
-  font-family: 'Lexend Deca', sans-serif;
-  font-style: 1.2rem;
-  letter-spacing: 1px;
-  font-weight: 800;
-  color: #6E6D45;
-}
-
-#two-books .book1-info .book-title2{
-  font-family: 'Lexend Deca', sans-serif;
-  font-style: 1.2rem;
-  letter-spacing: 1px;
-  font-weight: 800;
-  color: #774B4D;
-  margin-bottom: 20px;
-}
 #two-books .book1{
   background: #FDFEF8;
   display: flex;
-  padding: 30px 60px;
+  padding: 65px 95px;
+  flex-basis: 50%;
 }
 
 #two-books .book2{
   background: #FBE9E9;
   display: flex;
-  padding: 30px 60px;
+  flex-basis: 50%;
+  padding: 65px 95px;
+}
+
+
+#two-books .book1-info .book-title1{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #6E6D45;
+  margin-bottom: 10px;
+}
+
+#two-books .book1-info .book-title2{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #774B4D;
+  margin-bottom: 20px;
 }
 
 #two-books .book1-info{
@@ -340,4 +361,158 @@ a{
 
 #book2 .book1-info .book2-color{
   color: #774B4D;
+}
+
+/* Top selling books */
+
+#top-selling{
+  background: #F0FEFB;
+  height: 700px;
+  widows: 100%;
+  padding: 100px 70px;
+}
+
+#top-selling .top-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.no-price-cut{
+  display: none;
+}
+
+#top-selling .top-tittle{
+  font-size: 2rem;
+  color: #415F5A;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  margin-top: -20px;
+  margin-left: 50px;
+}
+
+#top-selling .top-bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+#top-selling .top-book .top-title{
+  font-size: 1.3rem;
+  color: #3F8072;
+  margin-bottom: 10px;
+}
+
+.text-subtitle-top{
+  color: #616C6A;
+  margin-bottom: 10px;
+}
+
+#top-selling .top-book .top-img1{
+  width:260px;
+  height: 300px;
+  background: url(../img/book-covers/logo\ design\ love.png) no-repeat center center/cover;
+}
+
+#top-selling .top-book .top-img2{
+  width:260px;
+  height:300px;
+  background: url(../img/book-covers/logo\ modernism.png) no-repeat center center/cover;
+}
+
+#top-selling .top-book .top-img3{
+  width:260px;
+  height: 300px;
+  background: url(../img/book-covers/one\ word\ kill.png) no-repeat center center/cover;
+}
+
+
+#top-selling .top-book .top-img4{
+  width:220px;
+  height: 300px;
+  background: url(../img/book-covers/there\ there.png) no-repeat center center/cover;
+}
+
+#top-selling .top-book .sm-price{
+  display: flex;
+  align-items: center;
+}
+
+#top-selling .top-book .top-info{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#top-selling .top-book .last-info{
+  margin-left: 0px; 
+  margin-top: 30px;
+}
+
+/* AWARDS BEST DEALS */
+
+#book-sect{
+  background: #FFF7F4;
+  height: 600px;
+  widows: 100%;
+  /* text-align: center; */
+  padding: 10px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#book-sect .sect-title{
+  font-size: 1.3rem;
+  color: #78494D;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+#book-sect .btn-awards{
+  background: #FF4048;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 70px;
+}
+
+#book-sect .btn-sect a{
+  color: #fff;
+  font-weight: bold;
+}
+
+#book-sect .award-img{
+  margin-top: 70px;
+  height: 290px;
+  width: 250px;
+  background: url(../img/book-covers/the\ overdue\ life\ of\ amy\ byler.png) no-repeat center center/cover;
+}
+
+#book-sect .award-info{
+  text-align: center;
+  margin-left: 30px;
+}
+
+.btn-deals{
+  background: #F9E51B;
+  padding: 10px 14px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 40px;
+}
+
+#book-sect .best-deals .btn-sect a{
+  color: #616C6A;
+}
+
+#deals-img{
+  margin-top: 70px;
+  height: 290px;
+  width: 250px;
+  background: url(../img/book-covers/evil\ in\ america.png) no-repeat center center/cover;
+}
+
+#rated-img{
+  margin-top: 70px;
+  height: 290px;
+  width: 250px;
+  background: url(../img/book-covers/educated.png) no-repeat center center/cover;
 }
