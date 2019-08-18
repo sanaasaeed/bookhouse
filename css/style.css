@@ -50,6 +50,7 @@ a{
 .text-light{
   color: rgb(184, 170, 165);
   font-size: 0.8rem;
+  font-weight: bolder;
 }
 
 .text-subtitle{
@@ -101,6 +102,13 @@ a{
 
 .s-price-yellow{
   color: rgb(236, 224, 58);
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.s-price-orange{
+  color: #FD7D4C;
   font-size: 1.3rem;
   font-weight: bolder;
   margin-top: 10px;
@@ -453,11 +461,11 @@ a{
   height: 600px;
   widows: 100%;
   /* text-align: center; */
-  padding: 10px 90px;
+  padding: 0px 0px;
   display: flex;
-  justify-content: space-between;
+  justify-content: stretch;
 }
-
+/* I dont know y sect-title-rated is not changing its color  */
 #book-sect .sect-title{
   font-size: 1.3rem;
   color: #78494D;
@@ -468,10 +476,11 @@ a{
 
 #book-sect .btn-awards{
   background: #FF4048;
+  display: inline-block;
   padding: 10px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin-left: 70px;
+  margin-left: 20px;
 }
 
 #book-sect .btn-sect a{
@@ -480,6 +489,8 @@ a{
 }
 
 #book-sect .award-img{
+  display: block;
+  margin: auto;
   margin-top: 70px;
   height: 290px;
   width: 250px;
@@ -491,12 +502,25 @@ a{
   margin-left: 30px;
 }
 
+/* BEST DEALS */
+
+.best-deals{
+  background: #FEFDF8;
+  flex: 1;
+}
+
+.award-winners{
+  flex: 1;
+  text-align: center;
+}
+
 .btn-deals{
   background: #F9E51B;
+  display: inline-block;
   padding: 10px 14px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  margin-left: 40px;
+  margin-left: 200px;
 }
 
 #book-sect .best-deals .btn-sect a{
@@ -504,15 +528,165 @@ a{
 }
 
 #deals-img{
+  display: block;
   margin-top: 70px;
+  margin-left: 150px;
   height: 290px;
   width: 250px;
   background: url(../img/book-covers/evil\ in\ america.png) no-repeat center center/cover;
 }
 
 #rated-img{
+  display: block;
+  margin: auto;
   margin-top: 70px;
   height: 290px;
   width: 250px;
   background: url(../img/book-covers/educated.png) no-repeat center center/cover;
 }
+
+#book-sect .sm-price{
+  display: flex;
+  justify-content: center;
+}
+
+#book-sect .sm-price p{
+  margin-right: 20px; 
+}
+
+.sect-title-deals{
+  color: #72684A;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.sect-title-rated{
+  color: #763C26;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+#book-sect .top-rated{
+  flex: 1;
+}
+
+.btn-rated{
+  background: #FD7D4C;
+  display: inline-block;
+  padding: 10px 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 190px;
+}
+/* AUTHORS */
+
+#authors{
+  height: 490px;
+  width: 100%;
+  background: #FFFFFF;
+}
+
+#authors{
+  padding: 100px 100px 100px 140px;
+}
+
+#authors .title-authors{
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #504E53;
+}
+#authors .authors{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#authors .author1-img{
+  height: 177px;
+  width:180px;
+  background: url(../img/authors/authors\ \(1\).png);
+}
+#authors .author2-img{
+  height: 177px;
+  width:180px;
+  background: url(../img/authors/authors2.png);
+}
+#authors .author3-img{
+  height: 177px;
+  width:180px;
+  background: url(../img/authors/authors3.png);
+}
+#authors .author4-img{
+  height: 177px;
+  width:180px;
+  background: url(../img/authors/authors4.png);
+}
+#authors .author5-img{
+  height: 177px;
+  width:180px;
+  background: url(../img/authors/authors5.png);
+}
+#authors .author6-img{
+  height: 177px;
+  width:180px;
+  background: url(../img/authors/authors6.png);
+}
+
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#main-ftr{
+  height: 685px;
+  width: 100%;
+  background: #FFF2F2;
+}
+
+#main-ftr .subscribe{
+  height: 290px;
+  width: 100%;
+  border-bottom: 1px solid #F3DCD3;
+}
+
+#main-ftr .subscribe{
+  text-align: center;
+  margin: auto 0;
+}
+
+#main-ftr input:first-child{
+  padding: 15px 50px;
+  border: none;
+  border: 1px solid #F3DCD3;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  /* text-align: left; */
+  font-size:0.9rem;
+  font-weight: bold;
+  background: #FEEFE8;
+}
+
+#main-ftr input::placeholder{
+  color: #D1BDB6;
+  text-align: left;
+}
+.btn-submit{
+  padding: 15px 22px;
+  margin-left: -10px;
+  border: none;
+  border: 1px solid #F3DCD3;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background: #FD7D4C;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+
