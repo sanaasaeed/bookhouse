@@ -101,3 +101,13 @@
 .btn-submit{
   padding: 10px 10px;
 }
+
+#main-ftr .last-ftr{
+  padding: 3rem 3rem;
+}
+
+#two-books{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
