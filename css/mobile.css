@@ -64,6 +64,7 @@
 
 /* Two books */
 
+
 #two-books .book1{
   flex-basis: 100%;
 }
@@ -73,7 +74,11 @@
 }
 
 #top-selling .top-wrapper{
+  justify-content: center;
+}
+#top-selling .top-wrapper .top-book{
   align-items: center;
+  flex-basis: 100%;
 }
 
 #top-selling .top-book{
@@ -82,4 +87,17 @@
 
 #book-sect{
   justify-content: center;
+}
+
+
+#authors .authors{
+  justify-content: center;
+}
+
+#main-ftr input:first-child{
+  padding: 10px 10px;
+}
+
+.btn-submit{
+  padding: 10px 10px;
 }

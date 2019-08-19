@@ -681,6 +681,7 @@ a{
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 #main-ftr input:first-child{
@@ -689,8 +690,8 @@ a{
   border: 1px solid #F3DCD3;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  /* text-align: left; */
-  font-size:0.9rem;
+  /* margin-left: 40px; */
+  font-size:0.7rem;
   font-weight: bold;
   background: #FEEFE8;
 }
