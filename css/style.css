@@ -764,3 +764,7 @@ a{
   letter-spacing: 1px;
   margin-left: 5px;
 }
+
+.last-ftr .h2-ftr:hover{
+  cursor: pointer;
+}
