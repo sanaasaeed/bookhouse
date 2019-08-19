@@ -1,0 +1,85 @@
+/* NAVBAR */
+#main-header img{
+  display: none;
+}
+
+#main-header .logo{
+  order: 1;
+  border-bottom: 1px solid #FFDFCE;
+}
+
+#main-header{
+  text-align: center;
+  display: block;
+} 
+
+
+#main-header #left-navbar{
+  padding-top: 10px;
+  justify-content: center;
+  order: 2;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 223, 206, 0.632);
+}
+
+#main-header #right-navbar{
+  padding-top: 10px;
+  padding-right: 1.2rem;
+  justify-content:center;
+  order: 3;
+}
+
+/* main-book info */
+
+#main-book .book-img{
+  width: 490px;
+  height: 430px;
+}
+
+#main-book .book-info .main-title span{
+  font-size: 4rem;
+}
+
+
+#main-book .book-info{
+  width: 100%;
+  text-align: center;
+}
+
+#main-book .book-info .book-details{
+  justify-content: space-around;
+}
+
+#main-book .book-info .rating{
+  justify-content: center;
+}
+
+#main-book .book-info .price{
+  justify-content: center;
+}
+
+#main-book .book-info .main-title h2{
+  font-size: 0.9rem;
+}
+
+/* Two books */
+
+#two-books .book1{
+  flex-basis: 100%;
+}
+
+#two-books .book2{
+  flex-basis: 100%;
+}
+
+#top-selling .top-wrapper{
+  align-items: center;
+}
+
+#top-selling .top-book{
+  padding: 20px;
+}
+
+#book-sect{
+  justify-content: center;
+}

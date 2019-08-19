@@ -155,6 +155,7 @@ a{
 
 #main-header{
   display: flex;
+  flex-wrap: wrap;
   /* padding: 10px; */
   justify-content: space-between;
   align-items: center;
@@ -163,6 +164,7 @@ a{
 #main-header #left-navbar{
   /* padding-left: 2rem; */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   order: 1;
 }
@@ -170,6 +172,7 @@ a{
 #main-header #right-navbar{
   padding-right: 1.2rem;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   order: 3;
 }
@@ -207,8 +210,10 @@ a{
 #main-book{
   padding-top: 70px;
   padding-bottom: 90px;
-  padding-left: 130px;
+  /* padding-left: 130px; */
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   /* align-items: center; */
 }
 
@@ -250,12 +255,14 @@ a{
 
 #main-book .book-info .book-details{
   display: flex;
-  justify-content: space-between
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #main-book .book-info .rating{
   padding: 30px 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -270,6 +277,7 @@ a{
 
 #main-book .book-info .price{
   display: flex;
+  flex-wrap: wrap;
   padding-top: 10px;
   text-align: center;
 }
@@ -311,6 +319,7 @@ a{
 
 #two-books{
   display: flex;
+  flex-wrap: wrap;
   /* justify-content: space-evenly; */
   justify-content: stretch;
 }
@@ -318,6 +327,7 @@ a{
 #two-books .book1{
   background: #FDFEF8;
   display: flex;
+  flex-wrap: wrap;
   padding: 65px 95px;
   flex-basis: 50%;
 }
@@ -326,6 +336,7 @@ a{
   /* background: #FBE9E9; */
   background: #FFF2F2;
   display: flex;
+  flex-wrap: wrap;
   flex-basis: 50%;
   padding: 65px 95px;
 }
@@ -355,6 +366,7 @@ a{
 
 #two-books .book1-info .sm-price{
   display: flex;
+  flex-wrap: wrap;
   margin: 10px 0;
 }
 
@@ -383,6 +395,7 @@ a{
 
 #top-selling .top-wrapper{
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
 }
 
@@ -401,6 +414,7 @@ a{
 
 #top-selling .top-bar{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -442,6 +456,7 @@ a{
 
 #top-selling .top-book .sm-price{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -451,7 +466,7 @@ a{
 }
 
 #top-selling .top-book .last-info{
-  margin-left: 0px; 
+  margin-left: 0; 
   margin-top: 30px;
 }
 
@@ -460,10 +475,11 @@ a{
 #book-sect{
   background: #FFF7F4;
   height: 600px;
-  widows: 100%;
+  width: 100%;
   /* text-align: center; */
   padding: 0px 0px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: stretch;
 }
 /* I dont know y sect-title-rated is not changing its color  */
@@ -548,6 +564,7 @@ a{
 
 #book-sect .sm-price{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -603,6 +620,7 @@ a{
 }
 #authors .authors{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
 }
@@ -640,6 +658,7 @@ a{
 
 .top-bar{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -658,6 +677,7 @@ a{
 
 #main-ftr .subscribe{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
 }
@@ -727,6 +747,7 @@ a{
 
 #main-ftr .last-ftr{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -735,6 +756,7 @@ a{
 }
 #main-ftr .last-ftr .btns-last{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
